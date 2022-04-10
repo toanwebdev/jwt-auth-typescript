@@ -1,0 +1,17 @@
+POST http://localhost:4000/v1/api/auth/register
+Content-Type: application/json
+
+{
+  "username": "toan020103",
+  "password": "toando2001"
+}
+
+###
+
+POST http://localhost:4000/v1/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "toan020101",
+  "password": "toando2001"
+}
